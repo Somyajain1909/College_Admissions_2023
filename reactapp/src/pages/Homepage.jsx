@@ -1,12 +1,14 @@
 import React from 'react'
-import Home from '../components/Home';
+// import Home from '../components/Home';
 import Navbar from '../components/Navbar';
-import Process from '../components/Process';
+import Login from '../components/Login';
+// import Signup from '../components/Signup';
+// import Process from '../components/Process';
 const Homepage = () => {
   return (
     <div style={{'overflowY':'hidden'}}>
       <Navbar/>
-      <Process/>
+      <Login/>
     </div>
   )
 }
