@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+.btn-outline {
+  color: #5FA29E;
+  background-color: #ffffff;
+  border-color: #5FA29E;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.btn-outline {
+  color: #5FA29E;
+  background-color: #ffffff;
+  border-color: #5FA29E;
+  font-weight: bold;
+  border-radius: 8;
+}
+
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  background: #5FA29E;
+  color: #ffffff;
+  border-color: #5FA29E;
+  
+}
+#circle {
+  width: 120px;
+  height: 120px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  border: 1px solid rgba(95, 162, 158, 0.51);
+}
+
+
